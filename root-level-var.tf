@@ -5,7 +5,8 @@ locals {
       t ="new"
     },
     prod = {
-      environment = "prod"
+      environment = "prod",
+      t = "old"
     }
   }
 
